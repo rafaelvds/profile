@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+.bio img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 10px
+}
+
+body {
+  background-color: rgb(239, 233, 231);
+  font-family: 'Exo 2', sans-serif;
+  color: rgb(20, 52, 43);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  color: rgb(20, 52, 43);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#msw {
+  background-color: rgba(21, 165, 18, .5);
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 50px
+}
+
+#msw:hover {
+  border: 1px solid rgba(21, 165, 18, .5);
+  background-color: rgb(60, 145, 230);
+  color: rgb(239, 233, 231);
+  opacity: .9;
+}
+
+.bio, .social {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 600px;
+  margin: 20px auto;
+  padding-bottom: 15px;
+}
+
+.bio {
+  padding-bottom: 40px;
+}
+
+.social ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social li {
+  font-size: 10px;
+}
+
+.fab {
+  color: rgb(60, 145, 230);
+}
+
+.fab:hover {
+  color: rgba(21, 165, 18, .5);
+  opacity: .9;
+}
+
+@media (max-width: 1280px) {
+  /* For a screen < 1280px, this CSS will be read */
+  .container {
+    width: 984px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
